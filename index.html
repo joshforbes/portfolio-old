@@ -3,24 +3,99 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Josh Forbes Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+
+        <section class="hero">
+            <div class="avatar">
+                <img src="img/test.jpg" alt=""/>
+                <div class="name">Josh Forbes</div>
+                <div class="title">Web Developer</div>
+            </div>
+        </section>
+
+        <section class="work">
+        <div class="work-visual">
+            <img src="img/divvy-shot.jpg" alt=""/>
+        </div>
+        <div class="work-info">
+            <div class="work-header">
+                <a href="http://www.divvytask.com">Divvy</a>
+            </div>
+            <div class="work-body">
+                Divvy is a team based project management web application. Making use of websockets and Pusher.com
+                the application is realized in real time. Meaning whenever a user performs any action within a project,
+                all other users within that project see that action immediately.
+            </div>
+            <div class="work-technologies-used">
+                technologies used: Laravel 5, Pusher, jQuery, Codeception, Bootstrap, Sass
+            </div>
+            <div class="work-links">
+                <a href="http://github.com/joshforbes/divvy"><img src="img/github.png" alt=""/></a>
+            </div>
+        </div>
+        </section>
+
+
+        <section class="work work--alternate">
+            <div class="work-info">
+                <div class="work-header">
+                    <a href="http://www.biltmoreprint.com">Biltmore Print</a>
+                </div>
+                <div class="work-body">
+                    The client was transitioning from a franchise to an independent business, they needed a
+                    website that provided the same functionality as their franchise site had. I developed a site
+                    for them that was consistent with their brand as well as offering the quote management system
+                    and file uploading capabilities that they required.
+                </div>
+                <div class="work-technologies-used">
+                    technologies used: Laravel, jQuery, Bourbon + Neat
+                </div>
+                <div class="work-links">
+                    <a href="http://github.com/joshforbes/biltmoreprint"><img src="img/github.png" alt=""/></a>
+                </div>
+            </div>
+            <div class="work-visual">
+                <img src="img/bpi-shot.jpg" alt=""/>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="work-visual">
+                <img src="img/framework-shot.jpg" alt=""/>
+            </div>
+            <div class="work-info">
+                <div class="work-header">
+                    <a href="http://framework.joshforb.es">MVC Framework</a>
+                </div>
+                <div class="work-body">
+                    Before learning a PHP framework I wanted to understand the problems they were
+                    designed to solve, so I built my own as a learning exercise. The finished product is
+                    fully object oriented and features common framework constructs such as: URL routing,
+                    object relational mapping, and request/response objects. I used the framework to build
+                    a simple content management system that allows admin users to create, edit and delete
+                    content.
+                </div>
+                <div class="work-technologies-used">
+                    technologies used: PHP, MySql, Composer, Bootstrap, Bower, Grunt
+                </div>
+                <div class="work-links">
+                    <a href="http://github.com/joshforbes/simpleblog"><img src="img/github.png" alt=""/></a>
+                </div>
+            </div>
+        </section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
